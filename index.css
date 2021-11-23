@@ -25,11 +25,7 @@ body {
         font-size: 45%;
     }
 }
-@media(max-width:900px){
-    html{
-        font-size: 55%;
-    }
-}
+
   video {
     
       z-index: 100;
