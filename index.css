@@ -14,9 +14,6 @@ body {
       height: 100vh;
       /* background: url('webp.png'); */
   }
-<<<<<<< Updated upstream
-  
-=======
   @media(max-width:999px){
       html{
           font-size: 55%;
@@ -43,25 +40,21 @@ body {
         font-size: 25%;
     }
 }
->>>>>>> Stashed changes
   video {
-    
-      z-index: 100;
+    z-index: 100;
     width: 100%;
     height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 50vh;;
   }
   
   .wrapper{
       position: relative;
       overflow: hidden;
       padding: 56.25%;
-  }
-  #iframe{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 80vw;
-      height: 50vh;;
   }
   #text {
       background-color: white;
